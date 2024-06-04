@@ -1,2 +1,8 @@
+set(TEMPLATE_FILE "${COMPONENT_DIR}/MCP251XFD/Conf_MCP251XFD_Template.h")
+set(DEST_FILE "${COMPONENT_DIR}/Conf_MCP251XFD.h")
+
+configure_file(${TEMPLATE_FILE} ${DEST_FILE} COPYONLY)
+
 idf_component_register(SRCS "MCP251XFD/MCP251XFD.c" "MCP251XFD/CRC/CRC16_CMS.c" "MCP251XFD/CRC/CRC_CAN.c"
-                       INCLUDE_DIRS "MCP251XFD")
+                       INCLUDE_DIRS "." "MCP251XFD")
+
