@@ -4,6 +4,5 @@ description: "This is idf component of MCP251XFD"
 url: "https://github.com/KenosInc/esp_mcp251xfd"
 
 dependencies:
-  idf:
-    version: ">5.0.0"
+  idf: ">5.0.0"
 
