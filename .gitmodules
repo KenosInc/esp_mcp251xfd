@@ -1,0 +1,3 @@
+[submodule "MCP251XFD"]
+	path = MCP251XFD
+	url = git@github.com:Emandhal/MCP251XFD.git

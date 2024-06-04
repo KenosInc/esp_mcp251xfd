@@ -1,0 +1,2 @@
+idf_component_register(SRCS "MCP251XFD/MCP251XFD.c" "MCP251XFD/CRC/CRC16_CMS.c" "MCP251XFD/CRC/CRC_CAN.c"
+                       INCLUDE_DIRS "MCP251XFD")
