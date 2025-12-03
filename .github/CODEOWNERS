@@ -1,0 +1,8 @@
+# Global code owners for all files in the repository
+* @key
+
+# Specific ownership for git submodule updates
+MCP251XFD/ @key
+
+# Dependabot configuration files
+.github/dependabot.yml @key
